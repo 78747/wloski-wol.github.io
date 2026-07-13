@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+  <title id="t">Miejsce na mapę</title><desc id="d">Dekoracyjny placeholder mapy bez wskazania niepotwierdzonej lokalizacji.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07110d"/><stop offset="1" stop-color="#132a20"/></linearGradient><pattern id="grid" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M90 0H0v90" fill="none" stroke="#c8a35f" stroke-opacity=".08"/></pattern><radialGradient id="glow"><stop stop-color="#5c171d" stop-opacity=".7"/><stop offset="1" stop-color="#5c171d" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="900" fill="url(#bg)"/><rect width="1200" height="900" fill="url(#grid)"/>
+  <path d="M-80 218C189 75 337 327 569 219s388-22 721-170M-99 687c235-160 439 66 639-32 261-128 426 53 768-85" fill="none" stroke="#cfc4b0" stroke-opacity=".18" stroke-width="18"/>
+  <path d="M174-80c-45 255 92 329 16 516-78 192-32 298 56 531M943-53c-91 260 65 365-8 532-49 111-40 245 16 469" fill="none" stroke="#cfc4b0" stroke-opacity=".11" stroke-width="12"/>
+  <circle cx="600" cy="424" r="210" fill="url(#glow)" opacity=".45"/>
+  <path d="M600 247c-93 0-168 75-168 168 0 128 168 269 168 269s168-141 168-269c0-93-75-168-168-168Z" fill="#0b1c15" stroke="#c8a35f" stroke-width="7"/>
+  <circle cx="600" cy="415" r="61" fill="#5c171d" stroke="#e6c989" stroke-width="5"/>
+  <path d="M570 401c-27-1-45-16-52-39-10 23-3 46 17 59 9 5 19 7 29 5m66-25c27-1 45-16 52-39 10 23 3 46-17 59-9 5-19 7-29 5" fill="none" stroke="#e6c989" stroke-width="5" stroke-linecap="round"/>
+</svg>

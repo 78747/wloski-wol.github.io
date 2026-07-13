@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Monogram Włoski Wół</title>
+  <desc id="desc">Dwa złote rogi otaczające monogram WW na ciemnozielonym tle.</desc>
+  <defs>
+    <linearGradient id="gold" x1="12" y1="10" x2="82" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6C989"/>
+      <stop offset=".52" stop-color="#C8A35F"/>
+      <stop offset="1" stop-color="#85662E"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="35%" r="78%">
+      <stop stop-color="#173326"/>
+      <stop offset="1" stop-color="#080908"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="94" height="94" rx="47" fill="url(#bg)" stroke="#C8A35F" stroke-opacity=".5"/>
+  <path d="M43 34C32 33 24 27 21 18c-4 9-2 19 6 25 4 3 9 4 14 3M53 34c11-1 19-7 22-16 4 9 2 19-6 25-4 3-9 4-14 3" fill="none" stroke="url(#gold)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M29 53l7 22 8-15 4 15 4-15 8 15 7-22" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="44" r="2.2" fill="#E6C989"/>
+</svg>

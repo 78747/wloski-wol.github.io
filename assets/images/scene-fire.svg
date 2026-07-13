@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" role="img" aria-labelledby="t d">
+  <title id="t">Ciepło kuchni</title><desc id="d">Abstrakcyjny placeholder fotografii ognia lub pieca.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#080908"/><stop offset="1" stop-color="#341014"/></linearGradient>
+    <radialGradient id="f"><stop stop-color="#f2e9d8"/><stop offset=".25" stop-color="#e6c989"/><stop offset=".58" stop-color="#9b4329"/><stop offset="1" stop-color="#5c171d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#bg)"/>
+  <circle cx="500" cy="744" r="430" fill="url(#f)" opacity=".54"/>
+  <path d="M501 980C331 869 366 717 457 623c-14 111 36 142 55 198 23-91 101-141 76-280 134 126 173 297-87 439Z" fill="#e6c989" opacity=".82"/>
+  <path d="M500 980c-89-84-60-160 6-230 0 72 57 93 15 178 56-48 94-116 63-193 109 120 42 211-84 245Z" fill="#f2e9d8" opacity=".78"/>
+  <path d="M125 1034c247-47 503-47 750 0M176 1086c216-37 432-37 648 0" fill="none" stroke="#c8a35f" stroke-opacity=".34" stroke-width="9" stroke-linecap="round"/>
+  <path d="M365 401c-90-137 49-163-4-293M504 349c-49-117 53-148 27-249M642 412c90-129-31-175 30-291" fill="none" stroke="#c8a35f" stroke-opacity=".22" stroke-width="10" stroke-linecap="round"/>
+</svg>

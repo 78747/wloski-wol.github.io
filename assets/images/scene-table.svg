@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 960" role="img" aria-labelledby="t d">
+  <title id="t">Wspólny stół</title><desc id="d">Abstrakcyjny placeholder fotografii stołu.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06100c"/><stop offset="1" stop-color="#321014"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="58%"><stop stop-color="#c8a35f" stop-opacity=".45"/><stop offset="1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1400" height="960" fill="url(#bg)"/>
+  <rect width="1400" height="960" fill="url(#glow)"/>
+  <path d="M-50 592 700 402l750 190v368H-50Z" fill="#18100c"/>
+  <path d="m0 603 700-166 700 166M195 552l85 408M520 472l24 488M880 472l-24 488M1205 552l-85 408" fill="none" stroke="#85662e" stroke-opacity=".38" stroke-width="5"/>
+  <g fill="#f2e9d8" stroke="#c8a35f" stroke-width="5">
+    <ellipse cx="420" cy="616" rx="151" ry="59"/><ellipse cx="980" cy="616" rx="151" ry="59"/><ellipse cx="700" cy="720" rx="175" ry="69"/>
+  </g>
+  <g fill="#0b1c15"><ellipse cx="420" cy="616" rx="92" ry="31"/><ellipse cx="980" cy="616" rx="92" ry="31"/><ellipse cx="700" cy="720" rx="108" ry="38"/></g>
+  <g stroke="#e6c989" stroke-width="6" fill="none" stroke-linecap="round"><path d="M700 90v248M635 90h130"/><path d="M630 343h140"/></g>
+  <ellipse cx="700" cy="91" rx="132" ry="30" fill="#e6c989" opacity=".22"/>
+</svg>

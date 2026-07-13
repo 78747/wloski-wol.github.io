@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# FINAL_DOMAIN_TO_UPDATE
+Sitemap: https://FINAL_DOMAIN_TO_UPDATE/sitemap.xml

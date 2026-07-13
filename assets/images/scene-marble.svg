@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="t d">
+  <title id="t">Marmur i złote światło</title><desc id="d">Dekoracyjny placeholder zdjęcia wnętrza.</desc>
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efe4d1"/><stop offset=".44" stop-color="#a99f8e"/><stop offset=".46" stop-color="#1b2c23"/><stop offset="1" stop-color="#07110d"/></linearGradient>
+    <radialGradient id="l" cx="72%" cy="25%"><stop stop-color="#e6c989" stop-opacity=".65"/><stop offset="1" stop-color="#5c171d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#b)"/>
+  <path d="M-90 412c270 44 322 198 523 158 174-35 173-180 340-182 150-1 236 97 507 76" fill="none" stroke="#6f6555" stroke-opacity=".4" stroke-width="9"/>
+  <path d="M-40 1004c237-124 343 16 493-56 119-58 174-214 369-171 122 27 207 135 433 77" fill="none" stroke="#f2e9d8" stroke-opacity=".23" stroke-width="5"/>
+  <rect width="1200" height="1500" fill="url(#l)"/>
+  <path d="M735 222v580M688 222h94M636 812h198" fill="none" stroke="#c8a35f" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="735" cy="208" rx="148" ry="43" fill="#e6c989" opacity=".2"/>
+  <ellipse cx="735" cy="214" rx="88" ry="19" fill="#f2e9d8" opacity=".8"/>
+  <circle cx="257" cy="1163" r="166" fill="#5c171d" opacity=".72"/>
+  <circle cx="257" cy="1163" r="118" fill="none" stroke="#c8a35f" stroke-width="5"/>
+</svg>

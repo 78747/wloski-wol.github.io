@@ -1,0 +1,19 @@
+{
+  "name": "Włoski Wół",
+  "short_name": "Włoski Wół",
+  "description": "Włoska restauracja o wieczornym charakterze.",
+  "lang": "pl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080908",
+  "theme_color": "#0B1C15",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.png",
+      "sizes": "909x909",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

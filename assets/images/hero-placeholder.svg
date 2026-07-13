@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Abstrakcyjny wieczorny stół</title>
+  <desc id="desc">Artystyczny placeholder w zieleni, burgundzie i starym złocie.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07110d"/>
+      <stop offset=".48" stop-color="#10281e"/>
+      <stop offset="1" stop-color="#16080a"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="68%" cy="37%" r="52%">
+      <stop stop-color="#8c3c2b" stop-opacity=".62"/>
+      <stop offset=".45" stop-color="#5c171d" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#080908" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="48%" cy="43%" r="55%">
+      <stop stop-color="#f2e9d8"/>
+      <stop offset=".76" stop-color="#b9ae9a"/>
+      <stop offset=".8" stop-color="#7a5e2c"/>
+      <stop offset=".86" stop-color="#151a16"/>
+      <stop offset="1" stop-color="#080908"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E6C989"/>
+      <stop offset=".5" stop-color="#C8A35F"/>
+      <stop offset="1" stop-color="#85662E"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+    <pattern id="grain" width="19" height="19" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".8" fill="#f2e9d8" opacity=".06"/>
+      <circle cx="14" cy="11" r=".7" fill="#f2e9d8" opacity=".04"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#warm)"/>
+  <path d="M0 780C330 700 570 750 850 690c303-65 474-168 750-111v421H0Z" fill="#060706"/>
+  <path d="M0 812C310 726 568 791 858 716c312-80 489-153 742-102" fill="none" stroke="#c8a35f" stroke-opacity=".18" stroke-width="2"/>
+  <ellipse cx="1125" cy="660" rx="315" ry="116" fill="#000" opacity=".6" filter="url(#soft)"/>
+  <ellipse cx="1110" cy="610" rx="253" ry="198" fill="url(#plate)" transform="rotate(-8 1110 610)"/>
+  <ellipse cx="1110" cy="610" rx="152" ry="103" fill="#172b20" transform="rotate(-8 1110 610)"/>
+  <path d="M992 603c60-91 159-113 248-20-34 78-163 125-248 20Z" fill="#5c171d"/>
+  <path d="M1010 602c59-58 141-73 207-16-51 41-139 64-207 16Z" fill="#c8a35f" opacity=".46"/>
+  <g fill="none" stroke="url(#gold)" stroke-linecap="round">
+    <path d="M1043 442c-39-71 16-103-4-173" stroke-width="5" opacity=".26"/>
+    <path d="M1110 419c-25-64 31-84 17-151" stroke-width="4" opacity=".18"/>
+    <path d="M1160 441c36-63-9-96 17-151" stroke-width="4" opacity=".2"/>
+  </g>
+  <g transform="translate(1350 284)" fill="none" stroke="url(#gold)">
+    <path d="M-56 0h112l-18 170c-5 49-71 49-76 0Z" stroke-width="4"/>
+    <path d="M0 218v104M-60 326H60" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-42 74h84" stroke="#5c171d" stroke-width="76" opacity=".74"/>
+  </g>
+  <path d="M220 214c118-82 244-89 374-21M184 264c151-101 304-112 456-26" fill="none" stroke="#c8a35f" stroke-opacity=".16" stroke-width="2"/>
+  <rect width="1600" height="1000" fill="url(#grain)"/>
+</svg>

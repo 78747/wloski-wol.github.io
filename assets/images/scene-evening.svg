@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" role="img" aria-labelledby="t d">
+  <title id="t">Wieczorny rytm</title><desc id="d">Dekoracyjny placeholder zdjęcia atmosfery lokalu.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#080908"/><stop offset=".65" stop-color="#0b1c15"/><stop offset="1" stop-color="#341014"/></linearGradient><radialGradient id="lamp"><stop stop-color="#f2e9d8"/><stop offset=".25" stop-color="#e6c989" stop-opacity=".72"/><stop offset="1" stop-color="#c8a35f" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1500" height="1000" fill="url(#bg)"/>
+  <g opacity=".95"><circle cx="320" cy="252" r="238" fill="url(#lamp)"/><circle cx="750" cy="175" r="202" fill="url(#lamp)"/><circle cx="1195" cy="275" r="248" fill="url(#lamp)"/></g>
+  <path d="M0 690c310-67 516-54 750 16 242 73 455 61 750-16v310H0Z" fill="#070707"/>
+  <path d="M0 722c340-75 524-41 750 20 232 62 456 49 750-20" fill="none" stroke="#c8a35f" stroke-opacity=".28" stroke-width="5"/>
+  <g stroke="#c8a35f" stroke-width="8" fill="none" stroke-linecap="round"><path d="M320 0v170M750 0v102M1195 0v190"/></g>
+  <g fill="#5c171d" opacity=".62"><circle cx="482" cy="754" r="72"/><circle cx="1012" cy="757" r="72"/></g>
+</svg>
