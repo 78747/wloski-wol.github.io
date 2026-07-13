@@ -8,15 +8,14 @@
   const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
   const $ = (selector, scope = doc) => scope.querySelector(selector);
   const $$ = (selector, scope = doc) => Array.from(scope.querySelectorAll(selector));
-
-  // DANE_DO_UZUPELNIENIA: wprowadź wyłącznie pozycje z zatwierdzonej karty.
-  // Obsługiwane pola: name, description, category, price, prices, tags, allergens, image.
+  // Dane menu pochodzą z aktualnej karty w menu-data.js.
   const MENU_ITEMS = window.WLOSKI_WOL_MENU_ITEMS || [];
   const MENU_CATEGORY_META = window.WLOSKI_WOL_MENU_CATEGORY_META || {};
 
   const safeSlug = (value) => String(value)
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ł/g, "l")
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
@@ -218,7 +217,7 @@
   }
 
 
-  /* Menu renderer — activates automatically after verified data is added. */
+  /* Menu renderer */
   const menuRoot = $("[data-menu-root]");
   const menuToolbar = $("[data-menu-toolbar]");
   const menuCategoryNav = $("[data-menu-categories]");
@@ -226,9 +225,14 @@
   const menuCategoryNext = $("[data-menu-category-next]");
   const menuSearch = $("[data-menu-search]");
   const menuEmpty = $("[data-menu-empty]");
+  const showMenuError = () => {
+    if (menuEmpty) menuEmpty.hidden = false;
+    menuToolbar?.classList.remove("is-ready");
+  };
 
   if (menuRoot && MENU_ITEMS.length > 0) {
-    menuEmpty?.remove();
+    try {
+      menuEmpty?.remove();
     menuToolbar?.classList.add("is-ready");
     const categories = [...new Set(MENU_ITEMS.map((item) => item.category).filter(Boolean))];
     const sections = [];
@@ -297,6 +301,10 @@
     });
 
     const categoryButtons = $$('[data-menu-target]', menuCategoryNav || doc);
+    const requestedMenuSection = window.location.hash ? doc.getElementById(window.location.hash.slice(1)) : null;
+    if (requestedMenuSection) {
+      window.requestAnimationFrame(() => requestedMenuSection.scrollIntoView({ behavior: reducedMotion.matches ? "auto" : "smooth", block: "start" }));
+    }
     if (categoryButtons[0]) categoryButtons[0].classList.add("is-active");
 
     const updateMenuCategoryScroll = () => {
@@ -365,6 +373,22 @@
       menuNoResults.hidden = !query || visibleCount > 0;
       window.requestAnimationFrame(updateMenuCategoryScroll);
     });
+    } catch {
+      menuRoot.replaceChildren();
+      showMenuError();
+    }
+  } else if (menuRoot) {
+    showMenuError();
+  }
+
+  /* Mobile action bar — hides when the footer enters the viewport. */
+  const mobileActions = $("[data-mobile-actions]");
+  const siteFooter = $(".site-footer");
+  if (mobileActions && siteFooter && "IntersectionObserver" in window) {
+    const footerObserver = new IntersectionObserver(([entry]) => {
+      mobileActions.classList.toggle("is-footer-visible", entry.isIntersecting);
+    }, { threshold: 0.04 });
+    footerObserver.observe(siteFooter);
   }
 
   /* Current year */

@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# FINAL_DOMAIN_TO_UPDATE
-Sitemap: https://FINAL_DOMAIN_TO_UPDATE/sitemap.xml
+Sitemap: https://78747.github.io/wloski-wol.github.io/sitemap.xml

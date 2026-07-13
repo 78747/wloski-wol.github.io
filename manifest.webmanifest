@@ -1,7 +1,7 @@
 {
-  "name": "Włoski Wół",
+  "name": "Włoski Wół Beef & Pizza",
   "short_name": "Włoski Wół",
-  "description": "Włoska restauracja o wieczornym charakterze.",
+  "description": "Burgery, pizza, żeberka, steki i dania obiadowe w Zwierzyńcu.",
   "lang": "pl",
   "start_url": "./index.html",
   "scope": "./",
@@ -9,11 +9,6 @@
   "background_color": "#080908",
   "theme_color": "#0B1C15",
   "icons": [
-    {
-      "src": "assets/icons/favicon.png",
-      "sizes": "909x909",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src": "assets/icons/favicon.png", "sizes": "909x909", "type": "image/png", "purpose": "any maskable"}
   ]
 }
